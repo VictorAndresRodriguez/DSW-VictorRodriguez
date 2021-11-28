@@ -36,8 +36,11 @@
     background-color: #150050;
     color: white;
     font color= white;
-    
+       
 }
+
+
+
 .item4{
     grid-area: article;
     text-align: center;

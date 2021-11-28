@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body link="white" vlink="white">
+    <div class="grid-container">
+        <header class="item1">
+            <h1>Etiquetas Básicas de HTML,
+                atributos y valores
+
+            </h1>
+
+        </header>
+        <nav class="item2">
+
+            <ul id="menu">
+                <li><a href="index.html">Inicio</a> </li>
+                <!--menu con 5 opciones-->
+                <li><a href="">Temas</a>
+                    <ul>
+                        <li><a href="tema1.html">Tema 1</a></li>
+                        <li><a href="tema2.html">Tema 2</a></li>
+                        <!-- <li><a href="">Mobile</a></li>-->
+                    </ul>
+                </li>
+                <li><a href="">Recursos Digitales</a>
+                    <ul>
+                        <li><a href="recurso1.html">Recurso 1</a></li>
+                        <li><a href="recurso2.html">Recurso 2</a></li>
+                        <!-- <li><a href="">Mobile</a></li>-->
+                    </ul>
+                </li>
+                <li><a href="">Aprendizaje</a>
+                    <ul>
+                        <li><a href="actividad1.html">Aprendizaje 1</a></li>
+                        <li><a href="actividad2.html">Aprendizaje 2</a></li>
+                        <!-- <li><a href="">Mobile</a></li>-->
+                    </ul>
+                </li>
+                <li><a href="">Acerca de </a>
+                    <ul>
+                        <li><a href="autor.html">Autor</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+        <section class="item4">
+            <h2>Etiquetas Básicas de HTML,
+                atributos y valores</h2>
+            <article class="item5">
+                <h3>Atributos y valores</h3>
+                <img src="img/tema2.png" alt="descripcion de atributos y valores">
+                <h6>autoria propia</h6>
+                <!--imagen-->
+                <p id="parrafo1">Los atributos de HTML son palabras especiales utilizadas dentro de la etiqueta de
+                    apertura considerandose como informacion adicional esto para complementar, añadir informacion o
+                    significado al elemento controlando el comportamiento del mismo, estos siempre van acompañados del
+                    signo = y son precedidos por un valor que va entre comillas ya sean dobles o simples.
+                    <br>
+                    <br>
+                    Por lo tanto el atributo escrito en una etiqueta (por ejemplo párrafo) se ve así:
+                    &lt;p atributo="valor">Este es un párrafo&lt;/p&gt;
+                <p id="parrafo1">Celaya Luna, A. (2014). Creación de páginas web: HTML 5. Málaga, UNKNOWN: Editorial
+                    ICB. Recuperado de http://ebookcentral. proquest. com/lib/ucsgsp/detail. action.
+                    <a href="https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56045">Creación de páginas
+                        web: HTML 5</a>
+                </p>
+                </p>
+            </article>
+            <article class="item6">
+                <h5>articulo 2</h5>
+                <p id="parrafo1">
+                <h3>TIPOS DE ATRIBUTOS</h3>
+
+                Aunque cada una de las etiquetas HTML define sus propios atributos, encontramos algunos comunes a muchas
+                o casi todas las etiquetas, que se dividen en cuatro grupos según su funcionalidad:
+                <br>
+                • Atributos básicos <br>
+                • Atributos de internacionalización <br>
+                • Atributos de eventos <br>
+                • Atributos de foco <br>
+                <br>
+                <h4>ATRIBUTOS BÁSICOS</h4>
+
+                Los atributos básicos se utilizan en la mayoría de etiquetas HTML y XHTML, aunque adquieren mayor
+                sentido cuando se utilizan hojas de estilo en cascada (CSS):
+                <br>
+                <h4>Atributo - Descripción</h4>
+                id="texto" Establece un indicador único a cada elemento <br>
+                class="texto" Establece la clase CSS que se aplica a los estilos del elemento <br>
+                style="texto" Aplica de forma directa los estilos CSS de un elemento <br>
+                title="texto" Establece el título del elemento (Mejora la accesibilidad) <br>
+
+
+                </p>
+                <br>
+                <p>
+                <h4>ATRIBUTOS DE INTERNACIONALIZACIÓN O I18N</h4>
+                Estos atributos se utilizan en aquellas páginas que muestran sus contenidos en varios idiomas y las que
+                quieran indicar de forma explícita el idioma de sus contenidos: <br>
+                <h4>Atributo - Descripción</h4>
+                lang="codigo" Indica el idioma del elemento <br>
+                xml:lang="codigo" Indica el idioma del elemento, aunque tiene más prioridad que el atributo anterior y
+                es obligatorio si se incluye el atributo lang <br>
+                dir - Indica la dirección del texto <br>
+                </p>
+                <p>
+                <h3>ATRIBUTOS DE EVENTOS</h3>
+                Estos atributos se utilizan en las páginas web que incluyen código JavaScript para realizar acciones
+                dinámicas sobre los elementos de la página. <br>
+                <h4>Pueden ser utilizados por: todos los elementos</h4>
+                <h4>Atributo - Descripción</h4>
+                onclick - Ejecuta la acción cuando se realiza un clic sobre el elemento <br>
+                ondblclick - Ejecuta la acción cuando se realiza un doble clic sobre el elemento <br>
+                onmousedown - Ejecuta la acción cuando se detecta el botón pulsado del ratón<br>
+                onmouseup - Ejecuta la acción cuando se detecta que se ha soltado el botón del ratón <br>
+                onmousemove - Ejecuta la acción cuando se detecta el movimiento del ratón sobre el elemento <br>
+                onmouseout - Ejecuta la acción cuando el ratón abandona el elemento <br>
+                onmouseover - Ejecuta la acción cuando se detecta que el ratón se sitúa sobre el elemento <br>
+                <h4>Pueden ser utilizados por: &lt;body&gt;</h4>
+                <h4>Atributo - Descripción</h4>
+                onload - Ejecuta la acción cuando se carga el documento <br>
+                onunload - Ejecuta la acción cuando se abandona el documento <br>
+                onresize - Ejecuta la acción cuando se ha modificado el tamaño de la ventana del navegador <br>
+                <h4>Pueden ser utilizados por: elementos de formulario y &lt;body&gt;</h4>
+                <h4>Atributo - Descripción</h4>
+                onkeydown - Ejecuta la acción cuando se detecta que la tecla esta pulsada <br>
+                onkeyup - Ejecuta la acción cuando se detecta que se ha soltado la tecla pulsada <br>
+                onkeypress - Ejecuta la acción cuando se pulsa una tecla <br>
+                <h4>Pueden ser utilizados por: varios </h4>
+                <h4> Atributos Descripción Elementos que pueden usarlo</h4>
+                onblur - Ejecuta la acción cuando el elemento pierde el foco bien sea a través del ratón o por
+                navegación tabulada &lt;button&gt;, &lt;input&gt;, &lt;label&gt;, &lt;select&gt;, &lt;textarea&gt;,
+                &lt;body&gt; <br>
+                onfocus - Ejecuta la acción cuando el elemento obtiene el foco bien sea a través del ratón o por
+                navegación tabulada &lt;button&gt;, &lt;input&gt;, &lt;label&gt;, &lt;select&gt;, &lt;textarea&gt;,
+                &lt;body&gt; <br>
+                onchange - Ejecuta la acción cuando el valor de un control ha sido modificado &lt;input&gt;,
+                &lt;select&gt;, &lt;textarea&gt; <br>
+                onreset - Ejecuta la acción cuando el formulario es restablecido a sus valores por defecto &lt;form&gt;
+                <br>
+                onselect - Ejecuta la acción cuando un usuario selecciona texto en un campo de texto &lt;input&gt;,
+                &lt;textarea&gt; <br>
+                onsubmit - Ejecuta la acción cuando el formulario es enviado &lt;form&gt; <br>
+                </p>
+                <p>
+                <h3> ATRIBUTOS DE FOCO </h3>
+                Se le denomina foco o focus, cuando un control o elemento del documento ha sido seleccionado. Cuando ese
+                elemento deja de estar seleccionado, "pierde el foco" y es el nuevo elemento seleccionado el que se dice
+                que tiene "el foco".
+                <h4>Atributo - Descripción</h4>
+                accesskey="letra" Establece una tecla de acceso rápido a un elemento HTML <br>
+                tabindex="numero" Establece la posición del elemento en el orden de tabulación de la página (valor entre
+                0 y 32.767) <br>
+                onfocus onblur - Controlan los eventos JavaScript que se ejecutan cuando el elemento obtiene o pierde el
+                foco <br>
+
+                </p>
+
+            </article>
+        </section>
+        <aside class="item7">
+            <!--<h5>videos o links</h5>-->
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=331&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+        </aside>
+        <footer class="item8">
+            <h1> Proyecto de sitio web 2021 -16-04</h1>
+            <h3> Nombre: Victor Rodriguez </h3>
+            <h3>Programa: Ing Sistemas</h3>
+            <h4>
+                <p>fechad de creacion: agosto 29 de 2021 </p>
+                <p>fecha de actualizacion: Octubre 24 de 2021 </p>
+                <p>fechad de actualizacion: octubre 31 de 2021 </p>
+                <p>telefono: 3187125570 <br>
+                    skype: victorandresrodriguez1 <br>
+                    correo: victorandresrodriguez1@hotmail.com</p>
+            </h4>
+            <h2> fases 4 del proyecto</h2>
+        </footer>
+
+
+    </div>
+</body>
+
+</html>
